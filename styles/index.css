@@ -460,9 +460,12 @@ body {
   margin-top: 10px;
 }
 
-.grid_contanier3_main {
+.grid_contanier3_awards {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
   background-color: red;
   width: 1110px;
   height: 823px;

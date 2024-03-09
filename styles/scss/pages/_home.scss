@@ -232,10 +232,10 @@ align-self: flex-end;
   height: 23px;
   margin-top: 10px;
 }
-.grid_contanier3_main{
+.grid_contanier3_awards{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-row: ;
+  grid-row: 1fr 1fr;
   background-color: red;
   width: 1110px;
   height: 823px;
