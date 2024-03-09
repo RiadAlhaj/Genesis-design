@@ -1,0 +1,12 @@
+body {
+  max-width: 1360px;
+  width: 100%;
+  min-height: 3840px;
+  height: 100%;
+  background-color: darkgoldenrod;
+}
+
+.grid_container_home {
+  background-color: darkmagenta;
+}
+/*# sourceMappingURL=_home.css.map */
