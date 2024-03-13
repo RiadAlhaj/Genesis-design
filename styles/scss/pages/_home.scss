@@ -16,8 +16,8 @@ $home-text-color:#111111;
 $home-font-family:"Mulish", sans-serif;
 .grid_container_header{
   display: grid;
-  grid-template-columns: 635px 190px 212px 198px;
-  grid-template-rows:61px 23px 96px 28px 32px 159px 32px;
+  grid-template-columns: 7fr 2fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
   width:1109px;
   height: 575px;
   margin: auto;
@@ -25,8 +25,8 @@ $home-font-family:"Mulish", sans-serif;
     grid-column: 1/-1;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 91px 857px 162px;
-    grid-template-rows: 23px;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr;
     .top_logo{
       margin: 0px;
       grid-column:1/2;
@@ -38,7 +38,8 @@ $home-font-family:"Mulish", sans-serif;
       grid-column:3/4;
       grid-row: 1/2;
       display: grid;
-      grid-template-columns: 67px 29px 66px;
+      grid-template-columns: 3fr 1fr 3fr;
+      gap: 10px;
       grid-template-rows: 1fr;
       list-style: none;
       padding: 0px;
@@ -57,7 +58,7 @@ $home-font-family:"Mulish", sans-serif;
     grid-column: 1/2;
     grid-row: 4/5;
     color: #4A4FF2;
-    width: 173px;
+   
     font-family: $home-font-family;
     font-size: 22px;
     font-weight: bold;
@@ -65,7 +66,7 @@ $home-font-family:"Mulish", sans-serif;
   }
   .h1{
     grid-column: 1/2;
-    grid-row: 6/8;
+    grid-row: 6/9;
     font-family: $home-font-family;
     font-size: 40px;
     font-weight: bold;
@@ -78,29 +79,21 @@ $home-font-family:"Mulish", sans-serif;
   }
   .quote_box{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 116px 2px 23px;
-    grid-column: 3/4;
-    grid-row: 6/7;
-    gap: 9px;
-    .span2{
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 5fr 1fr 1fr;
+    grid-column: 3/-1;
+    grid-row: 6/9;
+    .quote_hr{
+      color: $home-text-color;
       margin: 0px;
-      grid-column: 2/3;
+      grid-column: 1/2;
       grid-row: 2/3;
     }
-    .quote_hr{
-      width: 30px;
-      height: 2px;
-      color: home-text-color;
-      margin: 0px;
-    }
     .quote_text{
-      width: 207px;
-      height: 23px;
       font-family: $home-font-family;
       font-size: 18px;
       font-style: italic;
-      grid-column: 2/3;
+      grid-column: 1/-1;
       grid-row: 3/4;
     }
   }
